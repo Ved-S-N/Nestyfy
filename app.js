@@ -75,10 +75,6 @@ const sessionOptions = {
 
 app.use(session(sessionOptions));
 
-app.get("/", (req, res) => {
-  res.send("working fine hurrayy!!!");
-});
-
 app.use(flash());
 
 app.use(passport.initialize());
