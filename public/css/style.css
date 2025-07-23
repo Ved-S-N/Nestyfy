@@ -11,7 +11,7 @@ body {
 
 .navbar {
   z-index: 1030;
-  height: 5rem;
+  height: auto;
   background-color: white;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .nav-link {
-  color: black !important;
+  color: black;
 }
 
 .f-info {
